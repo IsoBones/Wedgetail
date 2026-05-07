@@ -1,0 +1,24 @@
+{
+	"name": "wedgetail",
+	"version": "2.1.0",
+	"description": "Discord bot for Arma unit advertisements",
+	"main": "dist/bot.js",
+	"scripts": {
+		"start": "node dist/bot.js",
+		"dev": "ts-node src/bot.ts",
+		"build": "tsc",
+		"watch": "tsc -w"
+	},
+	"keywords": ["discord", "arma", "bot"],
+	"author": "IsoBones",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"discord.js": "^14.16.2",
+		"dotenv": "^16.4.5"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.2"
+	}
+}
